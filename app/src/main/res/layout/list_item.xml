@@ -10,7 +10,7 @@
       android:layout_height="wrap_content"
       android:background="#666666">
     <ImageView
-        android:id="@+id/nat_img"
+        android:id="@+id/image"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/f150"/>
@@ -20,44 +20,19 @@
         android:layout_width="200dp"
         android:layout_height="50dp">
 
-      <LinearLayout
-          android:orientation="horizontal"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:layout_gravity="bottom">
         <TextView
             android:id="@+id/branch_name"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="글로벌점명"
             android:gravity="left"
             android:elegantTextHeight="false"
             android:textColor="#ffffff"
-            android:textSize="15dp"
+            android:textSize="25dp"
             android:layout_marginLeft="10dp"/>
-      </LinearLayout>
-
-      <LinearLayout
-          android:orientation="horizontal"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:layout_gravity="bottom">
-        <TextView
-            android:id="@+id/webserver_location"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="서버위치"
-            android:layout_weight="1"
-            android:gravity="left"
-            android:textColor="#ffffff"
-            android:textSize="14dp"
-            android:layout_marginLeft="10dp"/>
-      </LinearLayout>
     </LinearLayout>
-
-
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="80dp"

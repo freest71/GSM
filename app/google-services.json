@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "847633204002",
+    "firebase_url": "https://gsmpush-fe55c.firebaseio.com",
+    "project_id": "gsmpush-fe55c",
+    "storage_bucket": "gsmpush-fe55c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847633204002:android:b73242cd68432ddc",
+        "android_client_info": {
+          "package_name": "com.shb06145620.yyh.gsm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847633204002-nl7cdg5i32v1ktpf5lmqoql7vhpfnjjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsVTD0YyyZox6Vk1zL9WoC036ZH_hpFeI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

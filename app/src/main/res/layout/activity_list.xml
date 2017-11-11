@@ -4,7 +4,30 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
+  android:orientation="vertical"
   tools:context="com.shb06145620.yyh.gsm.ListActivity">
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="300dp"
+      android:layout_height="50dp">
+      <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PUSH발송"
+        android:id="@+id/push_button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="push_send"/>
+      <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="조회"
+        android:id="@+id/push_button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="refresh"/>
+  </LinearLayout>
+
   <ListView
     android:id="@+id/listView"
     android:layout_width="match_parent"
